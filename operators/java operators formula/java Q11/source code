@@ -1,0 +1,23 @@
+/******************************************************************************
+
+Q14.Write a Java Program to find Surface Area and Volume of a Sphere
+
+*******************************************************************************/
+import java.util.*;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        
+        int l=sc.nextInt();
+        int b=sc.nextInt();
+        
+        
+        double s=4*(Math.PI*l*l);
+        double v=(4.0/3.0)*Math.PI*;
+        
+        System.out.println("surface: "+s);
+        System.out.println("volume: "+v);
+        
+    }
+}
